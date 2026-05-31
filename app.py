@@ -8,7 +8,7 @@ INFO_API = "https://mafuuuu-info-api.vercel.app/mafu-info?uid={uid}"
 LAST_API = "https://tgsub-eta.vercel.app/info?uid={uid}&password={password}&level={level}"
 
 
-@app.route("/infosemy")
+@app.route("/info")
 def infosemy():
 
     uid = request.args.get("uid")
