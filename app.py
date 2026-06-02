@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 JWT_API = "https://jwtr2x.vercel.app/kirito?uid={uid}&password={password}"
-INFO_API = "https://api.uncommon.qzz.io/uc-info?uid={uid}&key=UCxGAMER}"
+INFO_API = "https://api.uncommon.qzz.io/uc-info?uid={uid}&key=UCxGAMER"
 LAST_API = "https://tgsub-eta.vercel.app/info?uid={uid}&password={password}&level={level}"
 
 
